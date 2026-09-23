@@ -1,6 +1,6 @@
-# API REST Gestione Pratiche - Laravel & MySQL
+# API REST in Laravel
 
-API RESTful sviluppata in Laravel per la gestione di clienti e delle relative pratiche commerciali/legali, con gestione avanzata delle transizioni di stato.
+Esempio di API REST sviluppata in Laravel per la gestione di clienti e delle relative pratiche.
 
 ## Prerequisiti e Versioni Utilizzate
 * **PHP**: ^8.5.0
