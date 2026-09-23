@@ -14,7 +14,7 @@ API RESTful sviluppata in Laravel per la gestione di clienti e delle relative pr
 
 1. Clona la repository in locale:
    ```bash
-   git clone <URL_DEL_REPOSITORY>
+   git clone <URL_REPOSITORY>
    cd <NOME_CARTELLA_PROGETTO>
 
 2. Rinomina il file `.env.example` in `.env` e poi esegui:
