@@ -119,7 +119,8 @@ Esempio di API REST sviluppata in Laravel per la gestione di clienti e delle rel
     - Visual Studio Code.
     - Postman.
 
-5. Per HTTP e SQL: Dispense universitarie.
+5. Per HTTP e SQL:
+    - Dispense universitarie.
 
 ---
 
