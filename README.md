@@ -10,7 +10,7 @@ Esempio di API REST sviluppata in Laravel per la gestione di clienti e delle rel
 
 ---
 
-## Istruzioni di Installazione e Configurazione
+## Installazione e Configurazione
 
 1. Clona la repository in locale:
    ```bash
