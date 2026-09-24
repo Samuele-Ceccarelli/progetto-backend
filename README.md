@@ -126,13 +126,13 @@ Esempio di API REST sviluppata in Laravel per la gestione di clienti e delle rel
 
 ## Strumenti AI
 
-Google Gemini: 
-    - Correzioni e ricerca di alcuni metodi (e.g. `sentence()`).
-    - Sintassi enumeratore per le factory.
-    - Controllo sintassi validazione.
-    - Scrittura finale in `PraticaController.php` di `visualizzaPratiche()` e `modificaStatoPratica()`
-    - Creazione test automatici.
-    - Revisione codice completo.
+Google Gemini:
+* Correzioni e ricerca di alcuni metodi (e.g. `sentence()`).
+* Sintassi enumeratore per le factory.
+* Controllo sintassi validazione.
+* Scrittura finale in `PraticaController.php` di `visualizzaPratiche()` e `modificaStatoPratica()`.
+* Creazione test automatici.
+* Revisione codice completo.
     
 ---
 
