@@ -125,6 +125,7 @@ Esempio di API REST sviluppata in Laravel per la gestione di clienti e delle rel
 ---
 
 ## Strumenti AI
+
 Google Gemini: 
     - Correzioni e ricerca di alcuni metodi (e.g. `sentence()`).
     - Sintassi enumeratore per le factory.
