@@ -38,6 +38,8 @@ Esempio di API REST sviluppata in Laravel per la gestione di clienti e delle rel
    ```bash
    php artisan serve
 
+---
+
 ## Database e Test
 
 1. Per popolare il database utilizzando le classi seeders, eseguire il comando:
@@ -48,6 +50,8 @@ Esempio di API REST sviluppata in Laravel per la gestione di clienti e delle rel
    ```bash
    php artisan config:clear
    php artisan test
+
+---
 
 ## Esempi di chiamate API
 1. POST con endpoint /api/clienti
@@ -70,7 +74,64 @@ Esempio di API REST sviluppata in Laravel per la gestione di clienti e delle rel
         }
     }
 
-## Motivazioni alle scelte prese
+---
 
-1. Progettazione concettuale: 
-2. Tecnologia: ho scelto di non utilizzare estensioni AI offerte da Laravel
+## Motivazioni: scelte adottate
+1. Concettualmente:
+    - non ho utilizzato estensioni AI offerte da Laravel, per capire meglio il framework.
+    - ho utilizzato Gemini invece per coprire i "buchi" della documentazione ufficiale.
+    - ho preferito l'italiano per i metodi nei controller, invece che la convenzione (index, show, create,..), per chiarezza personale.
+
+2. Tecnologia:
+    - ho usato Composer, come indicato nella guida ufficiale.
+    - ho usato Postman per il test delle API
+---
+
+## Sviluppi futuri
+1. Riscrittura (parziale) del codice seguendo le convenzioni Laravel e utilizzo del solo inglese.
+2. Ampliamento delle tabelle.
+3. Utilizzo del caching e ottimizzazione delle risorse.
+4. Implementazione agenti AI per la gestione delle pratiche.
+5. Correggere l'indicizzazione '+10' per l'attributo `id_cliente` in pratica (mancanza di tempo)
+    ```json
+    ...
+    "id_pratica": 1,
+    "id_cliente": 11,
+    ...
+    ...
+    "id_pratica": 2,
+    "id_cliente": 12,
+    ...
+    
+---
+
+## Documentazione e Tools
+1. Per la comprensione del framework e scrittura del codice:
+    - https://laravel.com/framework/docs
+
+2. Per capire se le scelte seguite fossero coerenti con la best practice:
+    - https://www.youtube.com/@LaravelDaily/videos
+
+3. Per il diagramma ER:
+    - https://app.diagrams.net/
+
+4. Per scrivere il codice e testare API:
+    - Visual Studio Code.
+    - Postman.
+
+5. Per HTTP e SQL: Dispense universitarie.
+
+---
+
+## Strumenti AI
+Google Gemini: 
+    - Correzioni e ricerca di alcuni metodi (e.g. `sentence()`).
+    - Sintassi enumeratore per le factory.
+    - Controllo sintassi validazione.
+    - Scrittura finale in `PraticaController.php` di `visualizzaPratiche()` e `modificaStatoPratica()`
+    - Creazione test automatici.
+    - Revisione codice completo.
+    
+---
+
+Tempo totale stimato: ~15 ore 
